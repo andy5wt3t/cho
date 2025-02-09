@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { exec, execSync } = require('child_process');
-const port = process.env.SERVER_PORT || process.env.PORT || 3000;        
+const port = process.env.SERVER_PORT || process.env.PORT || 5000;        
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';  
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
